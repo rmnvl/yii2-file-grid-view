@@ -14,6 +14,12 @@
 
     composer require rmnvl/yii2-file-grid-view:dev-master
 
+В файл конигурации, добавить 
+
+    'controllerMap' => [
+        'file-parser' => 'rmnvl\yii2FileGridView\src\controllers\FileParserController'
+    ],
+
 
 Пример использования. Передайте путь к файлу в виджет:
 
