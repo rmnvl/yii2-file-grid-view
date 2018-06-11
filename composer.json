@@ -1,0 +1,23 @@
+{
+  "name": "rmnvl/yii2-file-grid-view",
+  "description": "File grid view",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Roman Veliev",
+      "email": "romaveliev@gmail.com"
+    }
+  ],
+  "require": {
+    "kartik-v/yii2-grid": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "rmvl\\yii2FileGridView\\": ""
+    }
+  },
+  "version": "0.0.0",
+  "minimum-stability": "dev"
+}
