@@ -15,9 +15,9 @@
   },
   "autoload": {
     "psr-4": {
-      "rmvl\\yii2FileGridView\\": ""
+      "rmnvl\\yii2FileGridView\\": ""
     }
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "minimum-stability": "dev"
 }

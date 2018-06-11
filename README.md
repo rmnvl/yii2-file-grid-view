@@ -1,19 +1,18 @@
-Для установки компонента добавить в composer.json в блок require:
+Установка:
+ добавить в composer.json в блок require:
 
-    "rmvl/yii2-file-grid-view": "dev-master"
+    "rmnvl/yii2-file-grid-view": "dev-master"
 
-в блок repositories:
+ в блок repositories:
 
     {
         "type": "git",
-        "url": "https://rmvl@bitbucket.org/rmvl/yii2-file-grid-view.git"
+        "url": "https://github.com/rmnvl/yii2-file-grid-view.git"
     }
 
-запустить команду
+запустить команду:
 
-    composer require exclusive/yii2-order-api:dev-master
-
-
+    composer require rmnvl/yii2-file-grid-view:dev-master
 
 
 Пример использования. Передайте путь к файлу в виджет:
